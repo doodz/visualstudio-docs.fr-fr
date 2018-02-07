@@ -20,11 +20,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2017
 ---
 # <a name="service-essentials"></a>Service Essentials
-Un service est un contrat entre deux VSPackages. Un VSPackage fournit un ensemble spécifique d’interfaces pour un autre VSPackage à consommer. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]est une collection de VSPackages qui fournit des services aux autres packages VS à elle-même.  
+Un service est un contrat entre deux VSPackages. Un VSPackage fournit un ensemble spécifique d’interfaces pour un autre VSPackage à consommer. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] est une collection de VSPackages qui fournit des services aux autres packages VS à elle-même.  
   
  Par exemple, vous pouvez utiliser le service SVsActivityLog pour obtenir une interface IVsActivityLog, que vous pouvez utiliser pour écrire dans le journal d’activité. Pour plus d’informations, consultez [Comment : utiliser le journal d’activité](../../extensibility/how-to-use-the-activity-log.md).  
   
- [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]fournit également des services intégrés qui ne sont pas enregistrés. Les VSPackages peuvent remplacer intégrés ou d’autres services en fournissant un service de remplacement. Remplacement d’un seul service est autorisée pour n’importe quel service.  
+ [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] fournit également des services intégrés qui ne sont pas enregistrés. Les VSPackages peuvent remplacer intégrés ou d’autres services en fournissant un service de remplacement. Remplacement d’un seul service est autorisée pour n’importe quel service.  
   
  Les services n’ont aucune fonctionnalité de découverte. Par conséquent, vous devez connaître l’identificateur de service (SID) d’un service que vous souhaitez utiliser, et vous devez connaître les interfaces qu’il fournit. La documentation de référence pour le service fournit ces informations.  
   
