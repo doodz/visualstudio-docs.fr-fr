@@ -1,5 +1,7 @@
 ## <a name="microsoft-open-source-code-of-conduct"></a>Code de conduite open source de Microsoft
 
+[![GuardRails badge](https://badges.production.guardrails.io/doodz/visualstudio-docs.fr-fr.svg)](https://www.guardrails.io)
+
 Ce projet a adopté le [Code de conduite open source de Microsoft](https://opensource.microsoft.com/codeofconduct/).
 Pour plus d’informations, consultez la [FAQ sur le code de conduite](https://opensource.microsoft.com/codeofconduct/faq/) ou envoyez vos questions ou commentaires à [opencode@microsoft.com](mailto:opencode@microsoft.com).
 
